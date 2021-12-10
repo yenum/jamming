@@ -1,7 +1,7 @@
 import * as env from 'dotenv'
 env.config()
 const clientId = process.env.REACT_APP_SPOTIFY_API_KEY
-const redirectUri = "http://localhost:3000/"
+const redirectUri = "http://localhost:3001"
 
 console.log(clientId)
 
