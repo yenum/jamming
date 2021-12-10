@@ -9,7 +9,7 @@ import Spotify from './utilities/Spotify'
 const App = () => {
 
   const [searchResults, setSearchResults] = useState([])
-  const [playlistName, setPlaylistName] = useState("Favourites")
+  const [playlistName, setPlaylistName] = useState("Favorites")
   const [playlistTracks, setPlaylistTracks] = useState([])
 
   const addTrack = (id) => {
@@ -34,7 +34,7 @@ const App = () => {
     let tracksUris = playlistTracks.map(track => track.uri);
     Spotify.savePlaylist(playlistName, tracksUris)
     .then(() => {
-      updatePlaylistName("Faves")
+      updatePlaylistName("New Playlist")
       setPlaylistTracks([])
     })
   }
