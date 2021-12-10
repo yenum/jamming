@@ -1,7 +1,7 @@
 import * as env from 'dotenv'
 env.config()
 const clientId = process.env.REACT_APP_SPOTIFY_API_KEY
-const redirectUri = "https://jammingapp.netlify.app"
+const redirectUri = "http://localhost:3000/"
 
 console.log(clientId)
 
