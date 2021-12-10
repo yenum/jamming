@@ -34,7 +34,7 @@ const App = () => {
     let tracksUris = playlistTracks.map(track => track.uri);
     Spotify.savePlaylist(playlistName, tracksUris)
     .then(() => {
-      updatePlaylistName("faves")
+      updatePlaylistName("Faves")
       setPlaylistTracks([])
     })
   }
