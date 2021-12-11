@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Jamming - The Spotify Search Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is a Spotify music search tool that allows users search fo music on Spotify, create a playlist from their search results, which they are able to save to their Spotify account. This means a user would need to have a Spotify account inorder to use this application. 
 
-## Available Scripts
 
-In the project directory, you can run:
+# How I worked on this project
 
-### `npm start`
+I decided to work on this project because I wanted to give myself a little bit of a challenge. This project is part of the Codecademy Full Stack Enginner Course. It is a react project and it was originally written as a class based component project. A huge part of this project was refactoring the entire code from class based components to function based components. 
+By doing this, I was able to have a better understanding of the differences between class based components and function based components and the ways React hooks in function based components make thing easier when it comes to managing state.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# What I learned from this project
 
-### `npm test`
+Aside from getting a better understanding on React Hooks, this project was also a great way for me to understand how to work with external APIs on a react project and react projects use APIs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ # How I can improve this project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ There is no perfect project and there are a few things I feel I could add to improve the project.
+ 1. I could add a loading feature on the buttons to notify the user when the queries are taking place. Currently, there is no way for the user to know whether this happens and in some cases, it may seem like the application is broken.
+ 2. I could also add a feature that allows the user listen to a small snippet of the music in the search results. This helps with a better user experience because the user can make a decision as to whether they want to add the song to their playlist or not by simply listening to the playback feature.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
