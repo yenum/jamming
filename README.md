@@ -11,7 +11,7 @@ By doing this, I was able to have a better understanding of the differences betw
 
 # What I learned from this project
 
-Aside from getting a better understanding on React Hooks, this project was also a great way for me to understand how to work with external APIs on a react project and react projects use APIs.
+Aside from getting a better understanding on React Hooks, this project was also a great way for me to understand how to work with external APIs on a react project and how react projects use APIs.
 
 
  # How I can improve this project
@@ -19,6 +19,7 @@ Aside from getting a better understanding on React Hooks, this project was also 
  There is no perfect project and there are a few things I feel I could add to improve the project.
  1. I could add a loading feature on the buttons to notify the user when the queries are taking place. Currently, there is no way for the user to know whether this happens and in some cases, it may seem like the application is broken.
  2. I could also add a feature that allows the user listen to a small snippet of the music in the search results. This helps with a better user experience because the user can make a decision as to whether they want to add the song to their playlist or not by simply listening to the playback feature.
+ 3. I could also learn more about deploying projects that contain .env files as this was a major challenge during this project and prevented the project from being deployed.
 
 
   
